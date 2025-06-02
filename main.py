@@ -1,6 +1,7 @@
 # Importar funciones de cada agente
 from agente1_analizador import extraer_genes
 from agente2_enfermedades import extraer_enfermedades
+from agente3_informe import generar_informe
 
 if __name__ == "__main__":
 
@@ -11,5 +12,7 @@ if __name__ == "__main__":
 
     enfermedades = extraer_enfermedades(genes)
 
+    generar_informe(enfermedades)
+
     # Imprime los genes que aparecen el sample.fasta
-    print(genes, "\n", enfermedades)
+    print("\n\n AGENTE 1: ",genes, "\n AGENTE 2: ", enfermedades, "\n", "AGENTE 3: informe.pdf", "\n\n")

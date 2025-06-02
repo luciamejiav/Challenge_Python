@@ -1,6 +1,6 @@
 # Diccionario para asociar los genes anteriores con enfermedades conocidas
 gen_a_enfermedad = {
-    "Gen1": ["Cáncer", "Anemia"],
+    "Gen1": ["Cancer", "Anemia"],
     "Gen2": ["Sindrome de Down"],
     "Gen3": ["Diabetes"]
 }
