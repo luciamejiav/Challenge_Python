@@ -3,8 +3,7 @@ from agente1_analizador import extraer_genes
 from agente2_enfermedades import extraer_enfermedades
 from agente3_informe import generar_informe
 
-if __name__ == "__main__":
-
+def main():
     fasta_file = "data/sample.fasta"  # Ruta del archivo sample.fasta
 
     # Lee la secuencia y detecta los genes
@@ -16,3 +15,8 @@ if __name__ == "__main__":
 
     # Imprime los genes que aparecen el sample.fasta
     print("\n\n AGENTE 1: ",genes, "\n AGENTE 2: ", enfermedades, "\n", "AGENTE 3: informe.pdf", "\n\n")
+
+# Pide que se haga de manera modular, por lo que definimos y llamamos
+if __name__ == "__main__":
+    main()
+    
