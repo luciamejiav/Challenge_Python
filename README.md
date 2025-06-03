@@ -19,8 +19,8 @@
     - Enfermedades asociadas.<br>
     - Resumen del análisis.<br><br>
 
-## Módo de ejecucicón:
-La ejecución de este challenge es muy sencilla. Cada agente tiene una función independiente que se une con el resto en el fichero main. <br><br>
+## Modo de ejecución:
+La ejecución de este challenge es muy sencilla. Cada agente tiene una función independiente, pero todos ellos se unen en el fichero main. <br><br>
 En el **fichero main** es donde ejecutaremos el proyecto completo. Esto se puede hacer de **dos formas** en Visual Studio Code: 
  1. En la esquina superior derecha del fichero main hay un **símbolo play ▶︎**, al pulsarlo se ejecuta automaticamente el fichero en la terminal. Además genera los informes en formato .pdf o .md, depende de lo que hayamos puesto, en un fichero independiente.
  2. En el menú superior izquierdo hacemos click en *Run*, se despliega un segundo menú en el que tenemos que seleccionar *Run Without Debugging*.
