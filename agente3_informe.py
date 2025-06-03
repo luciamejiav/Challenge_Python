@@ -1,4 +1,4 @@
-def generar_informe(enfermedades, informe = "informe.pdf"):  # Dependiendo del formato que queramos ponemos pdf o md (markdown)
+def generar_informe(enfermedades, informe = "informe.md"):  # Dependiendo del formato que queramos ponemos pdf o md (markdown)
 
     # Abro el archivo para escribir el informe
     with open(informe, "w") as f: 
