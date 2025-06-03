@@ -1,4 +1,4 @@
-# Diccionario para asociar los genes anteriores con enfermedades conocidas
+# Diccionario para asociar los genes anteriores con enfermedades conocidas, simula una pequeña api ficticia
 gen_a_enfermedad = {
     "Gen1": ["Cancer", "Anemia"],
     "Gen2": ["Sindrome de Down"],
