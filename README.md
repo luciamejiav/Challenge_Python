@@ -29,6 +29,7 @@ Aquí es donde ejecutaremos el proyecto completo en Visual Studio Code. Esto se 
  2. En el menú superior izquierdo hacemos click en *Run*, se despliega un segundo menú en el que tenemos que seleccionar *Run Without Debugging*.
 
 **Terminal**<br>
+
 ![image](https://github.com/user-attachments/assets/0f79fab6-6ef9-4899-9645-dddeb6c69323)
 
 **Fichero informe.md**<br>
